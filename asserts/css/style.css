@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.benifits li {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.nevImage{
+    max-width: 15%;
+}
+
+/* Change color on hover in navbar */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #FF5733;
+  }
+  
+
+  .footer .nav-link:hover {
+    color: #FF5733;
+  }
+
+  .attribute-footer p {
+    font-size: 12px;
+  }
+
+  .cardCustomized {
+    min-width: 27%;
+  }
+
+
+  .justify-text {
+    text-align: justify;
+}
+
