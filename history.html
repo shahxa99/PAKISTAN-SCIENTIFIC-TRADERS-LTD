@@ -15,6 +15,9 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;400;700;900&display=swap"
             rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap" rel="stylesheet">
 </head>
 
 
@@ -28,6 +31,9 @@
                 <a class="navbar-brand" href="index.html">
                     <img class="p-1" src="asserts/images/logo.png" alt="Pakistan Scientific Traders" height="60">
                 </a>
+<!-- dark mode -->
+                <button id="darkModeToggle">Toggle Dark Mode</button>
+
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,71 +75,111 @@
         <div class="container">
             <h1 class="text-danger fw-bold text-center">HISTORY</h1>
             <hr class="opacity-25">
-            <p class="justify-text">
+            <!-- <p class="justify-text fs-4">
                 Pakistan Scientific Traders were founded in 1987 by Mr. Ali Ahmad Athar. Initially started the business by providing repair and backup services to Intermediate, Graduate Level and Medical Colleges. After a continuous struggle of three decades by Mr. Ali Ahmad Athar, it made Pakistan Scientific Traders as well-known company.
+            </p> -->
+
+            <p class="justify-text fs-4">
+                Back in 1987, all thanks to the vision of Mr. Ali Ahmad Athar, he found a remarkable company Pakistan Scientific Traders came into existence. Initially, our focus was on providing repair and backup services to Intermediate, Graduate Level, and Medical Colleges.
+            </p>           
+            <p class="justify-text fs-4">
+                Over the course of three challenging decades, Mr. Ali Ahmad Athar dedicated himself tirelessly to the company's growth. Through his unwavering commitment, Pakistan Scientific Traders earned its place as a respected and well-known company in the business world.
             </p>
+        </div>
+    </section>
+
+    <section class="pt-3 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 qoute">
+                    <h1 class="d-lg-none d-xl-block d-xl-none pb-md-2 pb-sm-2">Founder's Reflection</h1>
+                   
+                    <img src="asserts/images/building-crop.png" class="w-100 blend-image img-thumbnail" alt="buildinds">
+
+                </div>
+                <div class="col-sm-12 pt-sm-5 col-md-12 pt-md-5 col-lg-6 col-xl-6 col-xxl-6 qoute">
+                    <h1 class=".d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">Founder's Reflection</h1>
+                    <p class="justify-text">
+                    <p class="fs-4">"Remember, in the ever-evolving landscape of business, adaptability is the key to not just survival, but triumph.</p>
+                    <p class="fs-4">In the face of change, our true potential emerges."</p>
+
+                    <p class="fs-4">- Ali Ahmad Athar</p>
+                    <img src="asserts/images/Ali Ahmed athar EDWARD.png" class="w-50" alt="Ali Ahmed Athar Signature">
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- Footer -->
     <section class="bg-light">
         <div class="footer container pt-5">
-            <br><br><br>
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5 pb-5">
-                    <img src="asserts/images/logo.png" class="w-50" alt="Pakistan Scientafic Traders">
-                    <br><br><br>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-3 pb-3">
+                    <img src="asserts/images/logo.png" class="w-25" alt="Pakistan Scientafic Traders">
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5 pb-5">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5">
                         <h4>SITE MAP</h4>
                         <hr>
-                        <div class="ps-4 fw-bold">
-                            <h6><a href="index.html" class="nav-link">Home</a></h6>
-                            <h6></h6><a href="principles.html" class="nav-link">Principles</a></h6>
-                            <h6></h6><a href="services.html" class="nav-link">Services</a></h6>
-                            <h6></h6><a href="history.html" class="nav-link">About us</a></h6>
-                            <h6></h6><a href="contactUs.html" class="nav-link">Contact us</a><br></h6>
+                        <div class="ps-4 fw-bold pb-3">
+                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="principles.html" class="nav-link">Principles</a>
+                            <a href="services.html" class="nav-link">Services</a>
+                            <a href="history.html" class="nav-link">About us</a>
+                            <a href="contactUs.html" class="nav-link">Contact us</a><br>
                         </div>
-                        <br>
-                        <h6 class="text-nowrap">Email: <a href="info@pakistanscientific.com.pk"
-                                class="text-dark">info@pakistanscientific.com.pk</a></h6>
+                        <h4>STAY IN TOUCH</h4>
+                        <hr>
+                        <div class="ps-4 fw-bold">
+                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="principles.html" class="nav-link">Principles</a>
+                            <a href="services.html" class="nav-link">Services</a>
+                            <a href="history.html" class="nav-link">About us</a>
+                            <a href="contactUs.html" class="nav-link">Contact us</a><br>
+                        </div>
+
+                        <h6 class="text-nowrap pt-3 text-danger">Email: <a href="mailto:info@pakistanscientific.com.pk"
+                                class="email-hover text-decoration-none">info@pakistanscientific.com.pk</a></h6>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5 pb-5">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5 pb-3">
                         <h4>OFFICES</h4>
                         <hr>
                         <div class="ps-4 fw-bold">
-                            <h6 class="text-dark"><span class="fw-bolder">Lahore Head Office </span> <br><br>
+                            <!-- Lahore Head Office -->
+                            <h6 class="mb-3"><span class="fw-bolder">Lahore Head Office </span> <br><br>
                                 Office:F-10, 1st Floor, Fazal Apartments,
                                 5-Faiz Road, Old Muslim Town
-                                Lahore - 54000, Pakistan <br><br>
-                                Tel: +92-42-363 15 232<br>
-                                Fax: +92-42-363 15 320</h6>
+                                Lahore - 54000, Pakistan</h6>
+                            <h6 class="text-danger">Tel: <a href="tel:+924236315232" class="email-hover text-decoration-none">+92-42-363 15 232</a></h6>
+                            <h6 class="text-danger">Fax: <a href="fax:+924236315320" class="email-hover text-decoration-none">+92-42-363 15 320</a></h6>
                             <hr>
 
-                            <h6 class="text-dark"><span class="fw-bolder">Rawalpindi Branch Office </span> <br><br>
+                            <!-- Rawalpindi Branch Office -->
+                            <h6 class="mb-3"><span class="fw-bolder">Rawalpindi Branch Office </span> <br><br>
                                 Suite# 5-6, 1st Floor, National Business
                                 Center Shamsabad, Murree Road,
-                                Rawalpindi-46300, Pakistan <br><br>
-                                Tel: +92 51 4935584<br>
-                                Fax: +92 51 4935585</h6>
+                                Rawalpindi-46300, Pakistan </h6>
+                            <h6 class="text-danger">Tel: <a href="tel:+92514935584" class="email-hover text-decoration-none">+92 51 4935584</a></h6>
+                            <h6 class="text-danger">Fax: <a href="fax:+92514935585" class="email-hover text-decoration-none">+92 51 4935 585</a></h6>
                             <hr>
 
-                            <h6 class="text-dark"><span class="fw-bolder">Karachi Branch Office</span> <br><br>
+                            <!-- Karachi Branch Office -->
+                            <h6 class="mb-3"><span class="fw-bolder">Karachi Branch Office</span> <br><br>
                                 Shop# B-82, Grace Shopping Center,
                                 Maskan Chorangi, Abul Hasan Isphani
                                 Road, Gulshan-e-Iqbal,
-                                Karachi-75300, Pakistan <br><br>
-                                Tel: +92 51 4935584<br>
-                                Fax: +92 51 4935585</h6>
+                                Karachi-75300, Pakistan </h6>
+                            <h6 class="text-danger">Tel: <a href="tel:+92514935584" class="email-hover text-decoration-none">+92 51 4935584</a></h6>
+                            <h6 class="text-danger">Fax: <a href="fax:+92514935585" class="email-hover text-decoration-none">+92 51 4935 585</a></h6>
                         </div>
                     </div>
                 </div>
                 <div class="attribute-footer text-center">
                     <hr>
-                    <p>ALL RIGHTS RESERVER BY <span><a href="index.html" class="text-dark">PAKISTAN SCIENTIFIC TRADERS
-                                LTD</a></span> © 2023</p>
+                    <p>ALL RIGHTS RESERVED BY <span><a href="index.html" class="email-hover">PAKISTAN SCIENTIFIC TRADERS
+                            LTD</a></span> © <span id="currentYear"></span></p>
                 </div>
                 <br><br><br>
     </section>
